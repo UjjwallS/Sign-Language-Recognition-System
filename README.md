@@ -61,6 +61,7 @@ python recognize_gesture.py
 
 
 ## Contributor
-- @SAKU0309
-- @Sanjuusanjuu
-- @UjjwallS
+- Sakshi
+- Sanjana P
+- Ujjwal Singh
+- Ujjwal Singh
