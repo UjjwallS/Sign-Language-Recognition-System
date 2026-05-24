@@ -1,67 +1,27 @@
-# Sign Language Recognition using OpenCV
+# 🤟 Sign Language Recognition System
 
-## Overview
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org/)
 
-This project implements a sign language recognition system using OpenCV. The system is designed to recognize and translate sign language gestures into text, facilitating communication for individuals who use sign language.
+## 📝 Overview
+This project implements a real-time Sign Language Recognition system using Computer Vision and Deep Learning. The platform translates hand gestures into text in real-time, facilitating smoother communication for individuals using sign language (e.g., American Sign Language).
 
-## Features
+## 🚀 Features
+* **Real-time Detection:** High-speed gesture recognition using a standard webcam.
+* **Hand Tracking:** Powered by MediaPipe for precise 21-point hand landmark detection.
+* **Deep Learning Pipeline:** Utilizes TensorFlow/Keras for gesture classification.
+* **Dataset Management:** Includes built-in scripts to collect and train custom gesture data.
 
-- Real-time gesture recognition using a webcam
-- Accurate translation of sign language gestures to text
-- Built-in support for various sign language alphabets (e.g., American Sign Language)
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Computer Vision:** OpenCV, MediaPipe
+* **Machine Learning:** TensorFlow, Keras, Scikit-learn
+* **Data Processing:** NumPy
 
-## Requirements
+## ⚙️ Setup and Installation
 
-- Python 3.x
-- OpenCV
-- NumPy
-- TensorFlow
-- Keras
-- Mediapipe
-  
-You can install the required Python packages using:
-```bash
-pip install opencv-python numpy tensorflow keras scikit-learn mediapipe
-```
-## Setup and Installation
-
-- Clone the repository:```git clone https://github.com/SAKU0309/sign-language-recognition.git```
-
-- Navigate to the project directory:```cd sign-language-recognition```
-
-- Install the required dependencies:```pip install -r requirements.txt```
-
-## Usage
-
-1.Ensure your webcam is connected and functioning.
-2.Run the script:(It will start the webcam that will collect the images in dataset folder. And can swtich to other gesture by pressing q )
-```base
-python collectdataset.py
-```
-3.Run the script:(It will train the model based on your gesture )
-```base
-python training.py
-```
-4.Run the main script:(It will open the window that will recognise the gesture of you hand)
-```base
-python recognize_gesture.py
-```
-5.Follow the above instructions in the terminal or command prompt for running the application.
-
-## Acknowledgements
-
-- OpenCV for providing the powerful computer vision library.
-- TensorFlow and Keras for enabling deep learning and model training.
-- scikit-learn for machine learning tools and utilities.
-- MediaPipe for advanced hand tracking and gesture recognition capabilities.
-
-## Output
-![photo-collage png (1)](https://github.com/user-attachments/assets/1bf7d41c-33a5-4107-9b17-7d255fd9f7fb)
-
-
-
-## Contributor
-- Sakshi
-- Sanjana P
-- Ujjwal Singh
-- Ujjwal Singh
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/UjjwallS/Sign-Language-Recognition-System.git
+   cd Sign-Language-Recognition-System

@@ -10,7 +10,7 @@ from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 image_size = 64
 
 # Correct path to the dataset
-data_dir = r"C:\Users\My PC\Desktop\sign language\dataset"  # Use raw string literal or double backslashes
+data_dir = "dataset"
 
 # Preprocess the dataset
 def load_data(data_dir):
